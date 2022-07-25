@@ -18,5 +18,5 @@ do
         bash -c "$1" &
         PID_OF_CHILD=$!
         wait $PID_OF_CHILD
-        sleep 120
+        sleep 10
 done
